@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+$body-bg: #c1bdba;
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background:$body-bg;
+  font-family: 'Titillium Web', sans-serif;
+}
